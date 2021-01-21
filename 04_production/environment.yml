@@ -1,0 +1,10 @@
+name: base
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - conda
+  - python=3.7
+  - dlenv-base=1.0.20201030
+  - dlenv-tf-2-3-gpu[url=file:///opt/deeplearning/binaries/tensorflow/dlenv-tf-2-3-gpu-1.0.20201111-py37hc2924e0_0.tar.bz2]
+prefix: /opt/conda
